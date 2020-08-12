@@ -8,9 +8,10 @@ function generateMarkdown(data) {
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
+  * [License](#license) 
+  * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)  
-  * [License](#license)  
 
   ## Installation:<a name="installation"></a>
   ${data.Installation}
@@ -18,15 +19,17 @@ function generateMarkdown(data) {
   ## Usage:<a name="usage"></a>
   ${data.Usage}
 
+  ## License:<a name="license"></a>
+  ${data.License}
+
+  ##Contributing:<a name="contributing"></a>
+
   ## Tests:<a name="tests"></a>
   ${data.Tests}
 
   ## Questions:<a name="questions"></a>
-  ${data.Questions}
-
-  ## License:<a name="license"></a>
-  ${data.License}
-
+  <a${data.QuestionOne}
+  Please contact: ${data.QuestionTwo}
 `;
 }
 

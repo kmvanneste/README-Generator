@@ -28,7 +28,7 @@ inquirer.prompt([
     },
     {
         type: "input",
-        message: "Who contributed to this project?",
+        message: "What are the contribution guidelines for this project?",
         name: "Contributing",
     },
     {
@@ -38,9 +38,14 @@ inquirer.prompt([
     },
     {
         type: "input",
-        message: "Do you have any questions regarding this project?",
-        name: "Questions",
+        message: "What is your github username?",
+        name: "QuestionOne",
     },
+    {
+        type: "input",
+        message: "What is your email address?",
+        name: "QuestionTwo"
+    }
 ]) .then(function(response) {
     console.log(response);
         fs.writeFile("README_New.md", generateMarkdown(response), function(error) {
@@ -51,43 +56,3 @@ inquirer.prompt([
             console.log("Success!")
         })
 })
-
-// // function to write README file
-// function writeToFile(filename, data) {
-
-//     .then(function(response) {
-
-//     })
-//     fs.writeFile(filename, data, function(err) {
-//         if (err) {
-//             return console.log(err);
-//         }
-//     })
-    
-// }
-
-// // function to initialize program
-// function init() {
-//     writeToFile("README_new.md", genMarkdown(questions));
-
-//     // const response = await promptUser();
-//     // try {
-//     //     var readMEData = fs.readFile("./utils/generateMarkdown.js", "utf-8", function(error){
-//     //         if (error) {
-//     //             return console.log(error);
-//     //         }
-//     //     });
-//     // console.log("index.js: " + generateMarkdown(response));
-//     // }
-//     // finally {}
-// }
-
-
-// // function call to initialize program
-// init();
-    
-    
-// //Writes to the m.d
-// function generateMarkdown() {
-
-// }
