@@ -1,16 +1,10 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const generateMarkdown = require("./generateMarkdown.js");
+const generateMarkdown = require("./utils/generateMarkdown");
 
-//const writeFileAsync = util.promisify(fs.wrtieFile);
-
-// array of questions for user
-const questions = [
-];
-
-function promptUser() {
-    inquirer.prompt([
+// array of questions for user  
+inquirer.prompt([
     {
         type: "input",
         message: "What is the title of your project?",
@@ -27,11 +21,6 @@ function promptUser() {
         name: "Installation",
     },
     {
-        type: "input",
-        message: "What is the title of your README?",
-        name: "Usage",
-    },
-    {
         type: "list",
         choices: ["MIT", "GNU", "Apache", "Mozilla", "Boost", "None"],
         message: "What license are you using for your project?",
@@ -44,44 +33,61 @@ function promptUser() {
     },
     {
         type: "input",
-        message: "What is the title of your README?",
+        message: "How do you run automated tests for this project?",
         name: "Tests",
     },
     {
         type: "input",
-        message: "What is the title of your README?",
-        name: "title",
+        message: "Do you have any questions regarding this project?",
+        name: "Questions",
     },
-])
-};   
-
-// function to write README file
-function writeToFile(data) {
-
-    
-}
-
-// function to initialize program
-function init() {
-    const response = await promptUser();
-    try {
-        var readMEData = fs.readFile("./utils/generateMarkdown.js", "utf-8", function(error){
+]) .then(function(response) {
+    console.log(response);
+        fs.writeFile("README_New.md", generateMarkdown(response), function(error) {
             if (error) {
-                return console.log(error);
+                console.log(error);
+                return;
             }
-        });
-    console.log("index.js: " + generateMarkdown(response));
-    }
-    finally {}
-}
+            console.log("Success!")
+        })
+})
 
+// // function to write README file
+// function writeToFile(filename, data) {
 
-// function call to initialize program
-function init() {
+//     .then(function(response) {
+
+//     })
+//     fs.writeFile(filename, data, function(err) {
+//         if (err) {
+//             return console.log(err);
+//         }
+//     })
     
-}
+// }
 
-//Writes to the m.d
-function generateMarkdown() {
+// // function to initialize program
+// function init() {
+//     writeToFile("README_new.md", genMarkdown(questions));
 
-}
+//     // const response = await promptUser();
+//     // try {
+//     //     var readMEData = fs.readFile("./utils/generateMarkdown.js", "utf-8", function(error){
+//     //         if (error) {
+//     //             return console.log(error);
+//     //         }
+//     //     });
+//     // console.log("index.js: " + generateMarkdown(response));
+//     // }
+//     // finally {}
+// }
+
+
+// // function call to initialize program
+// init();
+    
+    
+// //Writes to the m.d
+// function generateMarkdown() {
+
+// }
