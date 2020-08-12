@@ -20,15 +20,16 @@ function generateMarkdown(data) {
   ${data.Usage}
 
   ## License:<a name="license"></a>
-  ${data.License}
+  This application is covered under the ${data.License} license.
 
   ##Contributing:<a name="contributing"></a>
+  ${data.Contributing}
 
   ## Tests:<a name="tests"></a>
   ${data.Tests}
 
   ## Questions:<a name="questions"></a>
-  <a${data.QuestionOne}
+  <ahttps.//github.com/${data.QuestionOne}></a>
   Please contact: ${data.QuestionTwo}
 `;
 }
