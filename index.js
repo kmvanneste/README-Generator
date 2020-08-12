@@ -21,8 +21,13 @@ inquirer.prompt([
         name: "Installation",
     },
     {
+        type: "input",
+        message: "What are the installation instructions for your project?",
+        name: "Installation",
+    },
+    {
         type: "list",
-        choices: ["MIT", "GNU", "Apache", "Mozilla", "Boost", "None"],
+        choices: ["MIT", "Apache", "IBM", "Mozilla", "None"],
         message: "What license are you using for your project?",
         name: "License",
     },
@@ -48,6 +53,21 @@ inquirer.prompt([
     }
 ]) .then(function(response) {
     console.log(response);
+        if (response.License === "MIT") {
+            response.badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)" 
+        }
+        if (response.License === "Apache") {
+            response.badge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+        }
+        if (response.License === "IBM") {
+            response.badge = "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)"
+        }
+        if (response.License === "Mozilla") {
+            response.badge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
+        }
+        if (response.License === "None") {
+            response.badge = {name: "No license"}
+        }
         fs.writeFile("README_New.md", generateMarkdown(response), function(error) {
             if (error) {
                 console.log(error);

@@ -1,27 +1,32 @@
-# kristen
+# kristen  <p style='text-align: right;'>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)</p>
 
   ## Description
-  gen readme
+  la
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
+  * [License](#license) 
+  * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)  
-  * [License](#license)  
 
   ## Installation:<a name="installation"></a>
-  none
+  la
 
   ## Usage:<a name="usage"></a>
   undefined
 
+  ## License:<a name="license"></a>
+  This application is covered under the MIT license.
+
+  ## Contributing:<a name="contributing"></a>
+  woo
+
   ## Tests:<a name="tests"></a>
-  idk
+  woo
 
   ## Questions:<a name="questions"></a>
-  no
-
-  ## License:<a name="license"></a>
-  MIT
-
+  Contact me:
+  <a>https.//github.com/woo</a>
+  Email: woo
