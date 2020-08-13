@@ -1,7 +1,7 @@
-# KMoney [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Kristen [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  la
+  learn about Kristen
 
   ## Table of Contents
   * [Installation](#installation)
@@ -12,21 +12,22 @@
   * [Questions](#questions)  
 
   ## Installation:<a name="installation"></a>
-  la
+  no need
 
   ## Usage:<a name="usage"></a>
-  undefined
+  get to know an awesome lady
 
   ## License:<a name="license"></a>
   This application is covered under the MIT license.
 
   ## Contributing:<a name="contributing"></a>
-  
+  everyone is welcome
 
   ## Tests:<a name="tests"></a>
-  la
+  there are none
 
   ## Questions:<a name="questions"></a>
-  Contact me: <a>https.//github.com/la</a> 
-  Email: la
+  Learn more at: <a>https.//github.com/kmvan</a> 
+  OR
+  Email me at: kmvanneste
 

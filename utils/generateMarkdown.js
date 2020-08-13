@@ -29,9 +29,8 @@ function generateMarkdown(data) {
   ${data.Tests}
 
   ## Questions:<a name="questions"></a>
-  Learn more at: <a>https.//github.com/${data.QuestionOne}</a> 
-  
-  Email: ${data.QuestionTwo}
+  Learn more at: <a>https.//github.com/${data.QuestionOne}</a>
+  Email me at: ${data.QuestionTwo}
 
 `;
 }
