@@ -1,6 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.Title}<p style='text-align: right;'>${data.badge}</p>
+  return `# ${data.Title} ${data.badge}
 
   ## Description
   ${data.Description}
@@ -29,9 +29,10 @@ function generateMarkdown(data) {
   ${data.Tests}
 
   ## Questions:<a name="questions"></a>
-  Contact me:
-  <a>https.//github.com/${data.QuestionOne}</a>
+  Learn more at: <a>https.//github.com/${data.QuestionOne}</a> 
+  
   Email: ${data.QuestionTwo}
+
 `;
 }
 

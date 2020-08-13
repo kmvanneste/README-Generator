@@ -1,4 +1,4 @@
-# kristen  <p style='text-align: right;'>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)</p>
+# KMoney [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
   la
@@ -21,12 +21,12 @@
   This application is covered under the MIT license.
 
   ## Contributing:<a name="contributing"></a>
-  woo
+  
 
   ## Tests:<a name="tests"></a>
-  woo
+  la
 
   ## Questions:<a name="questions"></a>
-  Contact me:
-  <a>https.//github.com/woo</a>
-  Email: woo
+  Contact me: <a>https.//github.com/la</a> 
+  Email: la
+

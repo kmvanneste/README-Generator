@@ -7,38 +7,38 @@ const generateMarkdown = require("./utils/generateMarkdown");
 inquirer.prompt([
     {
         type: "input",
-        message: "What is the title of your project?",
+        message: "What is the title of your application?",
         name: "Title",
     },
     {
         type: "input",
-        message: "What is the description of your project?",
+        message: "What is the description of this application?",
         name: "Description",
     },
     {
         type: "input",
-        message: "What are the installation instructions for your project?",
+        message: "What are the installation instructions for your application?",
         name: "Installation",
     },
     {
         type: "input",
-        message: "What are the installation instructions for your project?",
-        name: "Installation",
+        message: "What is the purpose of this application?",
+        name: "Usage",
     },
     {
         type: "list",
         choices: ["MIT", "Apache", "IBM", "Mozilla", "None"],
-        message: "What license are you using for your project?",
+        message: "What license are you using for this application?",
         name: "License",
     },
     {
         type: "input",
-        message: "What are the contribution guidelines for this project?",
+        message: "What are the contribution guidelines for this application?",
         name: "Contributing",
     },
     {
         type: "input",
-        message: "How do you run automated tests for this project?",
+        message: "What automated tests are you running on this application?",
         name: "Tests",
     },
     {
