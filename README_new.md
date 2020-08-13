@@ -1,7 +1,7 @@
-# Kristen [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Kristen's Application [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  learn about Kristen
+  Get to know Kristen Van Neste!
 
   ## Table of Contents
   * [Installation](#installation)
@@ -12,22 +12,21 @@
   * [Questions](#questions)  
 
   ## Installation:<a name="installation"></a>
-  no need
+  You will need to install node.js and a code editing program such as visual studio code or eclipse.
 
   ## Usage:<a name="usage"></a>
-  get to know an awesome lady
+  To help fill the internet with better software!
 
   ## License:<a name="license"></a>
   This application is covered under the MIT license.
 
   ## Contributing:<a name="contributing"></a>
-  everyone is welcome
+  Please fork the repository and submit a pull request.
 
   ## Tests:<a name="tests"></a>
-  there are none
+  None.
 
   ## Questions:<a name="questions"></a>
-  Learn more at: <a>https.//github.com/kmvan</a> 
-  OR
-  Email me at: kmvanneste
+  Learn more at: <a>https.//github.com/kmvanneste</a>
+  Email me at: kmvanneste17@gmail.com
 
