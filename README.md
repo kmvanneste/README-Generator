@@ -11,7 +11,7 @@ You will need to download node.js in order for this program to work, as well as 
 
 ## Appearance
 Here is what the terminal will ask you as you run the program:
-![image](./assets/Terminal_prompt.png);
+![image](./assets/Terminal_prompt.png)
 
 Here is an image of a finished README:
-![image](./assets/FINAL_README.png);
+![image](./assets/FINAL_README.png)
